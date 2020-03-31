@@ -2,7 +2,7 @@
   <div class="container">
     <div class="container mt-5" style="margin-bottom: 200px;">
       <h1>About Us</h1>
-      <hr />
+      <hr >
       <div class="col-6 h6 my-5" style="line-height: 30px;">
         <p>
           本頁面為基於Vue.js所開發，只供本人練習使用，

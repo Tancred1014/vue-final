@@ -57,7 +57,7 @@ let router = new Router({
       ]
     },
     {
-      path: '/',
+      path: '/dashboard',
       name: 'dashboard',
       component: Dashboard,
       children: [{
@@ -74,7 +74,7 @@ let router = new Router({
       ]
     },
     {
-      path: '/HomePage',
+      path: '/Main',
       name: 'HomePage',
       component: HomePage,
       children: [{
@@ -107,7 +107,7 @@ let router = new Router({
 
     {
       path: '/*',
-      redirect: '/login'
+      redirect: '/Main'
     },
   ],
 });
